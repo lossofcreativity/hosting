@@ -1,0 +1,12 @@
+name: Keep Codespace Alive
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'  # This runs every 30 minutes
+
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send a Request to Codespace
+        run: curl -X GET https://bookish-capybara-9754r9rgqjwx2rp6-3000.app.github.dev/
