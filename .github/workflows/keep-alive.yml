@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send a Request to Codespace
-        run: curl -X GET https://bookish-capybara-9754r9rgqjwx2rp6-3000.app.github.dev/
+        run: curl -X GET https://bookish-capybara-9754r9rgqjwx2rp6-8080.app.github.dev/
