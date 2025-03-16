@@ -2,7 +2,7 @@ name: Keep Codespace Alive
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # This runs every 30 minutes
+    - cron: '*/1 * * * *'  # This runs every 1 minutes
 
 jobs:
   keep-alive:
