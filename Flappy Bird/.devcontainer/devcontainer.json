@@ -1,0 +1,9 @@
+{
+    "name": "Flappy Bird Development",
+    "dockerFile": "Dockerfile",
+    "appPort": [5500], // Port for Live Server
+    "postCreateCommand": "echo 'Codespace ready!'",
+    "extensions": [
+      "ritwickdey.liveserver" // Install Live Server extension
+    ]
+  }
